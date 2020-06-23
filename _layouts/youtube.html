@@ -4,10 +4,10 @@ layout: page
 
 {{ content }}
 
-{% assign posts2 = paginator.posts2 | default: site.posts2 %}
+{% assign youtube = paginator.youtube | default: site.youtube %}
 
 <div class="posts-list">
-  {% for post in posts2 %}
+  {% for post in youtube %}
   <article class="post-preview">
     <a href="{{ post.url | relative_url }}">
       <h2 class="post-title">{{ post.title }}</h2>
