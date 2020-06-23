@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: youtube 
 title: من با چه تجهیزاتی استریم رو شرو کردم
 subtitle: تجهیزات من در موقع شروع استریم
 cover-img: /assets/img/path.jpg
