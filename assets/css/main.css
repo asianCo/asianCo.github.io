@@ -367,16 +367,66 @@ img {
     {% endunless %}
   }
 
-  
+  /* coplete soon 200X200*/
 .right {
   margin-left: 280px;}
-  
-  @media screen and (max-width:448px) {
+  @media screen and (max-width:768px) {
   .right {
-        margin-left: 210px;
+        margin-left: 250px;
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+    @media screen and (max-width:800px) {
+  .right {
+        margin-left: 250px;
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+    @media screen and (max-width:600px) {
+  .right {
+        margin-left: 180px;
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+      @media screen and (max-width:640px) {
+  .right {
+        margin-left: 200px;
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+        @media screen and (max-width:412px) {
+  .right {
+        margin-left: 90px;
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+      @media screen and (max-width:384px) {
+  .right {
+        margin-left: 80px;
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+        @media screen and (max-width:480px) {
+  .right {
+        margin-left: 120px;
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+          @media screen and (max-width:375px) {
+  .right {
+        margin-left: 70px;
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+  @media screen and (max-width:360px) {
+  .right {
+        margin-left: 80px;
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+    @media screen and (max-width:320px) {
+  .right {
+        margin-left: 50px;
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}    @media screen and (max-width:1024px) {
+  .right {
+        margin-left: 290px;
     width:100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 }
+        /*end*/
   .navbar-custom .avatar-container .avatar-img  {
    
   }
