@@ -4,10 +4,10 @@ layout: page
 
 {{ content }}
 
-{% assign posts2 = paginator.posts2 | default: site.posts2 %}
+{% assign posts = paginator.posts | default: site.posts %}
 
 <div class="posts-list">
-  {% for ypost in posts2 %}
+  {% for ypost in posts %}
   <article class="post-preview">
     <a href="{{ ypost.url | relative_url }}">
       <h2 class="post-title">{{ ypost.title }}</h2>
