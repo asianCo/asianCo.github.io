@@ -3,7 +3,7 @@ title: "An awesome RStudio addin for selecting colours, and another for adding m
 tags: [professional, rstats, r, r-bloggers, shiny, shinyjs]
 date: 2016-03-30 03:00:00 -0700
 
-permalink: /Youtube/2009-10-01-paper-title-number-1/
+permalink: /youtubepost/2009-10-01-paper-title-number-1/
 layout: post
 comments: true
 show-share: true
