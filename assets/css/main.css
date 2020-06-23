@@ -82,20 +82,20 @@ hr.small {
   
 }
 .center1{
-  margin-left=280px;
+  margin-left=17rem;
 }
 @media (min-width: 638px) {
 .center1{
-    margin-left=220px;
+    margin-left=13rem;
   }
 }
 
 .center2{
-  margin-left=280px;
+  margin-left=17rem;
 }
 @media (min-width: 468px) {
 .center2{
-    margin-left=130px;
+    margin-left=8rem;
   }
 }
 
