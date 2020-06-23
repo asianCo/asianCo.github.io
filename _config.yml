@@ -12,7 +12,7 @@ author: ASIAN CO
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
+  درباره من: "aboutme"
   Resources:
     - Beautiful Jekyll: "#"
     - Learn markdown: "#"
