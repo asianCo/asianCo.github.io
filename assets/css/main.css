@@ -368,20 +368,16 @@ img {
   }
 
   
-  .main2 {
-  
+  .right{
         margin-left: 280px;
   }
-  @media screen  (min-width:468px) {
-  .main2 {
+    @media screen and (max-width:468px) {
+  .right {
     margin-left: 120px;
     width:100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 }
-  .right{
-        margin-left: 280px;
-  }
-  @media screen  (min-width:638px) {
+  @media screen and (min-width:638px) {
   .right {
         margin-left: 210px;
     width:100%; /* The width is 100%, when the viewport is 800px or smaller */
