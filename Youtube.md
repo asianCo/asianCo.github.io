@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: youtube
 title: Youtube
 subtitle: Youtbe Tumbnail
 ---
