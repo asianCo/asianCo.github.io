@@ -367,8 +367,28 @@ img {
     {% endunless %}
   }
 
-  .navbar-custom .avatar-container .avatar-img {
-    width: 100%;
+  
+  .main2 {
+  
+        margin-left: 280px;
+  }
+  @media screen and (max-width:468px) {
+  .main2 {
+    margin-left: 120px;
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+  .right{
+        margin-left: 280px;
+  }
+  @media screen and (max-width:638px) {
+  .right {
+        margin-left: 210px;
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+  .navbar-custom .avatar-container .avatar-img  {
+   
   }
 }
 
