@@ -79,8 +79,18 @@ hr.small {
   .main-content {
     padding-top: 8.125rem;
   }
+  
 }
 
+@media (min-width: 768px) {
+.center{
+    margin-left=80px;
+  }
+}
+
+.center{
+  margin-left=124px;
+}
 .hideme {
   display: none;
 }
