@@ -1,5 +1,5 @@
 ---
 layout: page
-title: About me
+title: Home
 subtitle: Complete Soon
 ---
