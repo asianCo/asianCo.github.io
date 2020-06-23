@@ -368,9 +368,7 @@ img {
   }
 
   
-  .right{
-        margin-left: 280px;
-  }
+
     @media screen and (max-width:468px) {
   .right {
     margin-left: 120px;
