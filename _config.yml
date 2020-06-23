@@ -12,10 +12,9 @@ author: ASIAN CO
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  درباره من: "Youtube"
-  Resources:
-    - Beautiful Jekyll: "#"
-    - Learn markdown: "#"
+  Youtube : "Youtube"
+  Twitch: "#"
+    
 
 # --- Logo --- #
 
