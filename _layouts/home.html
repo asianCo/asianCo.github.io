@@ -21,7 +21,7 @@ layout: page
 
     <p class="post-meta">
       {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
-      منتشر شده در تاریخ {{ post.date | date: date_format }}
+      Posted on {{ post.date | date: date_format }}
     </p>
 
     <div class="post-entry-container">
