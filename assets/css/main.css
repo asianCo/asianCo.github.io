@@ -81,16 +81,23 @@ hr.small {
   }
   
 }
-
-.center{
+.center1{
   margin-left=280px;
 }
-@media (min-width: 768px) {
-.center{
-    margin-left=80px;
+@media (min-width: 638px) {
+.center1{
+    margin-left=220px;
   }
 }
 
+.center2{
+  margin-left=280px;
+}
+@media (min-width: 468px) {
+.center2{
+    margin-left=130px;
+  }
+}
 
 .hideme {
   display: none;
