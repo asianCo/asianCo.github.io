@@ -82,15 +82,16 @@ hr.small {
   
 }
 
+.center{
+  margin-left=280px;
+}
 @media (min-width: 768px) {
 .center{
     margin-left=80px;
   }
 }
 
-.center{
-  margin-left=124px;
-}
+
 .hideme {
   display: none;
 }
