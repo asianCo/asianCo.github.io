@@ -372,7 +372,7 @@ img {
   
         margin-left: 280px;
   }
-  @media screen and (max-width:468px) {
+  @media screen  (min-width:468px) {
   .main2 {
     margin-left: 120px;
     width:100%; /* The width is 100%, when the viewport is 800px or smaller */
@@ -381,7 +381,7 @@ img {
   .right{
         margin-left: 280px;
   }
-  @media screen and (max-width:638px) {
+  @media screen  (min-width:638px) {
   .right {
         margin-left: 210px;
     width:100%; /* The width is 100%, when the viewport is 800px or smaller */
