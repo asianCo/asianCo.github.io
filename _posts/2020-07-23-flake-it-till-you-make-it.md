@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Flake it till you make it
-subtitle: Excerpt from Soulshaping by Jeff Brown
+title: من با چه تجهیزاتی استریم رو شرو کردم
+subtitle: تجهیزات من در موقع شروع استریم
 cover-img: /assets/img/path.jpg
 tags: [books, test]
 ---
