@@ -4,53 +4,53 @@ layout: page
 
 {{ content }}
 
-{% assign youtube = paginator.youtube | default: site.youtube %}
+{% assign posts2 = paginator.posts2 | default: site.posts2 %}
 
 <div class="posts-list">
-  {% for post in youtube %}
+  {% for ypost in posts2 %}
   <article class="post-preview">
-    <a href="{{ post.url | relative_url }}">
-      <h2 class="post-title">{{ post.title }}</h2>
+    <a href="{{ ypost.url | relative_url }}">
+      <h2 class="post-title">{{ ypost.title }}</h2>
 
-      {% if youtube.subtitle %}
+      {% if ypost.subtitle %}
         <h3 class="post-subtitle">
-        {{ youtube.subtitle }}
+        {{ ypost.subtitle }}
         </h3>
       {% endif %}
     </a>
 
     <p class="post-meta">
       {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
-      Posted on {{ youtube.date | date: date_format }}
+      Posted on {{ ypost.date | date: date_format }}
     </p>
 
     <div class="post-entry-container">
-      {% if youtube.image %}
+      {% if ypost.image %}
       <div class="post-image">
-        <a href="{{ youtube.url | relative_url }}">
-          <img src="{{ youtube.image | relative_url }}">
+        <a href="{{ ypost.url | relative_url }}">
+          <img src="{{ ypost.image | relative_url }}">
         </a>
       </div>
       {% endif %}
       <div class="post-entry">
         {% assign excerpt_length = site.excerpt_length | default: 50 %}
-        {{ youtube.excerpt | strip_html | xml_escape | truncatewords: excerpt_length }}
-        {% assign excerpt_word_count = youtube.excerpt | number_of_words %}
-        {% if youtube.content != youtube.excerpt or excerpt_word_count > excerpt_length %}
-          <a href="{{ youtube.url | relative_url }}" class="youtube-read-more">[Read&nbsp;More]</a>
+        {{ ypost.excerpt | strip_html | xml_escape | truncatewords: excerpt_length }}
+        {% assign excerpt_word_count = ypost.excerpt | number_of_words %}
+        {% if ypost.content != ypost.excerpt or excerpt_word_count > excerpt_length %}
+          <a href="{{ ypost.url | relative_url }}" class="post-read-more">[Read&nbsp;More]</a>
         {% endif %}
       </div>
     </div>
 
-    {% if youtube.tags.size > 0 %}
+    {% if ypost.tags.size > 0 %}
     <div class="blog-tags">
       Tags:
       {% if site.link-tags %}
-      {% for tag in youtube.tags %}
+      {% for tag in ypost.tags %}
       <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
       {% endfor %}
       {% else %}
-        {{ youtube.tags | join: ", " }}
+        {{ ypost.tags | join: ", " }}
       {% endif %}
     </div>
     {% endif %}
